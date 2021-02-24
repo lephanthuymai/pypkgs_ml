@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pypkgs_ml"
+name = "pypkgs_maile01"
 version = "0.1.0"
 description = "a very simple python package for DSCI-524 individual assignment"
 authors = ["Mai Le <lephanthuymai@gmail.com>"]

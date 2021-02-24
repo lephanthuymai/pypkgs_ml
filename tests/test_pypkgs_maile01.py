@@ -1,5 +1,5 @@
 from pypkgs_ml import __version__
-from pypkgs_ml import pypkgs_ml as mypkg
+from pypkgs_ml import pypkgs_maile01 as mypkg
 import pandas as pd
 
 
