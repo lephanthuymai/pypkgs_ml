@@ -10,5 +10,11 @@ def get_numeric_columns(df, drop_columns=[]):
 
     Returns:
         list: list of numeric column names
+
+    Examples:
+        from pypkgs_ml import pypkgs_ml as mypkg
+        import pandas as pd
+        df = pd.DataFrame({'c'=[1], 'a'=[0]})
+        cols = mypkg.get_numeric_columns(df)
     """
     return df.select_dtypes("number").drop(columns=drop_columns).columns.tolist()
